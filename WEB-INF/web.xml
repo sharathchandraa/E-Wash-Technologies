@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app version="3.0"
+xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+
+<description>MySQL Test App</description>
+<resource-ref>
+<description>DB Connection</description>
+<res-ref-name>jdbc/TestDB</res-ref-name>
+<res-type>javax.sql.DataSource</res-type>
+<res-auth>Container</res-auth>
+</resource-ref>
+
+<listener>
+<listener-class>
+costschedule
+</listener-class>
+</listener>
+
+<servlet>
+<servlet-name>dbasepusher</servlet-name>
+<servlet-class>ewashpack.dbasepusher</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>dbasepusher</servlet-name>
+<url-pattern>/jsp/dbasepusher</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>userchecker</servlet-name>
+<servlet-class>ewashpack.userchecker</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>userchecker</servlet-name>
+<url-pattern>/jsp/userchecker</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>washtoday</servlet-name>
+<servlet-class>ewashpack.washtoday</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>washtoday</servlet-name>
+<url-pattern>/jsp/washtoday</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>logintester</servlet-name>
+<servlet-class>ewashpack.logintester</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>logintester</servlet-name>
+<url-pattern>/jsp/logintester</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>sample</servlet-name>
+<servlet-class>ewashpack.sample</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>sample</servlet-name>
+<url-pattern>/jsp/sample</url-pattern>
+</servlet-mapping>
+
+
+
+<session-config>
+      <session-timeout>30</session-timeout>    
+    </session-config>
+
+</web-app>

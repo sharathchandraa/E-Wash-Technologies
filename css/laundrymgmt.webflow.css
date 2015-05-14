@@ -1,0 +1,452 @@
+body {
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: #333;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: left;
+}
+h1 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 38px;
+  line-height: 44px;
+  font-weight: 700;
+}
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 254px;
+  padding-right: 204px;
+  padding-left: 0px;
+  font-family: Merriweather, serif;
+  color: #424cb8;
+  font-size: 31px;
+  line-height: 36px;
+  font-weight: 400;
+  text-align: left;
+  letter-spacing: 1px;
+  text-transform: none;
+}
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+h5 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+}
+p {
+  margin-top: 36px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.button {
+  display: inline-block;
+  margin: 10px 33px 23px 0px;
+  padding: 4px 15px;
+  float: right;
+  background-color: black;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+.button.specialbutton {
+  width: 131px;
+  margin-top: 12px;
+  margin-right: 0px;
+  margin-left: 135px;
+  border-radius: 11px;
+  background-color: #4447a6;
+  font-family:'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
+.button.signoff {
+  border-radius: 5px;
+  background-color: #203666;
+  box-shadow: #71aba4 0px 0px 8px 0px inset;
+}
+.registration_heading {
+  text-align: center;
+}
+.howtoregister {
+  margin-top: 37px;
+  margin-bottom: 22px;
+  margin-left: 0px;
+  padding-bottom: 0px;
+  padding-left: 51px;
+  font-family:'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+}
+.form_container {
+  padding-top: 7px;
+  padding-bottom: 9px;
+}
+.label_form {
+  float: none;
+  box-shadow: none;
+  font-family:'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+  text-align: left;
+}
+.label_form.mobile {
+  display: inline;
+  box-shadow: none;
+}
+.label_form.door {
+  display: inline-block;
+  box-shadow: none;
+}
+.textfield_form {
+  width: 354px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgba(4, 7, 89, 0.49);
+  border-radius: 11px;
+  background-color: rgba(225, 245, 245, 0.29);
+}
+.textfield_form.doornumber {
+  width: 97px;
+  margin-right: -41px;
+  margin-left: -1px;
+  padding-right: 7px;
+  text-align: center;
+}
+.textfield_form.mobile {
+  width: 182px;
+  margin-top: 5px;
+  margin-bottom: 3px;
+  background-color: rgba(242, 245, 225, 0.4);
+  text-align: center;
+}
+.foot {
+  font-family:'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
+.foot.footindent {
+  font-weight: 700;
+  text-indent: 22px;
+}
+.tbform {
+  margin-bottom: 11px;
+  font-family:'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
+.submit {
+  margin-right: 8px;
+  margin-left: 35px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 11px;
+  background-color: #4c3df5;
+  font-family:'Droid Serif', serif;
+  text-align: center;
+}
+.logo {
+  width: 216px;
+  height: 76px;
+  margin-right: -10px;
+  padding-right: 49px;
+  text-align: center;
+}
+.topsection {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  z-index: 1;
+  overflow-x: visible;
+  overflow-y: visible;
+  margin: 13px 0px -21px;
+  padding-top: 5px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  background-color: rgba(136, 108, 145, 0.45);
+  text-align: center;
+}
+.logo1 {
+  width: 100%;
+  height: auto;
+  margin: 6px 31px -15px 25px;
+  padding-left: 4px;
+}
+.title {
+  position: fixed;
+  left: 212px;
+  top: 56px;
+  right: 310px;
+  z-index: 3;
+  overflow-x: visible;
+  overflow-y: visible;
+  margin-top: 24px;
+  margin-bottom: -11px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-family:'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+  color: #24437d;
+  font-size: 40px;
+  font-weight: 300;
+  text-align: center;
+}
+.namefield {
+  display: block;
+  margin-left: 17px;
+  float: left;
+  font-family: Bitter, serif;
+  font-size: 14px;
+  font-weight: 100;
+}
+.namefield.welcomenote {
+  margin-left: -134px;
+  font-size: 30px;
+  text-align: center;
+}
+.namefield.inlinelabel {
+  display: inline-block;
+}
+.namefield.inlinelabel.inlinelabelpassword {
+  float: right;
+}
+.namefield.inlinelabel.inlinelabelfloat {
+  float: none;
+}
+.namefield.inlinelabel.leftfloat {
+  margin-left: 138px;
+  float: left;
+}
+.namefield.inlinelabel.leftfloat.xyz {
+  margin-top: 12px;
+  margin-right: 0px;
+  margin-left: 139px;
+}
+.namefield.paypass {
+  margin-top: 15px;
+  margin-right: 26px;
+  margin-left: 16px;
+}
+.formfield {
+  display: inline-block;
+  width: 738px;
+  border: 3px solid #4d5375;
+  border-radius: 12px;
+  background-color: rgba(247, 230, 230, 0.24);
+}
+.formfield.profilename {
+  width: 504px;
+  margin-left: 29px;
+}
+.formfield.profilename.zyx {
+  margin-left: -78px;
+}
+.loginsubmit {
+  width: 82px;
+  height: 47px;
+  margin-top: 11px;
+  border: 0px solid #4558b0;
+  border-radius: 11px;
+  background-color: #0026ff;
+  font-family:'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
+.formcontainer {
+  margin-top: 24px;
+  margin-left: 65px;
+  text-align: left;
+}
+.topper {
+  position: fixed;
+  margin-right: 155px;
+}
+.topsectioncolumn1 {
+  width: 178px;
+}
+.signinform {
+  text-align: center;
+}
+.signinsection2 {
+  margin-top: 161px;
+}
+.efw {
+  margin-left: 357px;
+}
+.accountledha {
+  font-family:'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
+.accountledhaikkadanokku {
+  font-family:'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
+.toplogo {
+  margin-left: -68px;
+  text-align: center;
+}
+.logosection {
+  text-align: center;
+}
+.paymentpolicies {
+  margin-top: -2px;
+  margin-left: 148px;
+  font-weight: 400;
+  text-align: center;
+}
+.payment_tab1 {
+  left: 21px;
+  right: -7px;
+  margin-right: 31px;
+  margin-left: 174px;
+  border-radius: 5px;
+  background-color: #cae6de;
+  box-shadow: #4f3a3a 0px 0px 8px 0px inset;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  color: black;
+  font-weight: 400;
+}
+.payment_tab1.w--current {
+  border-radius: 5px;
+  box-shadow: #4f3a3a 0px 0px 6px 0px inset;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  color: black;
+  font-weight: 400;
+}
+._3rdsection {
+  margin-top: 70px;
+}
+.tab_form_wrapper {
+  margin-right: 164px;
+  margin-left: 164px;
+}
+.payment_label {
+  margin-top: 1px;
+  margin-bottom: 3px;
+  font-family: Bitter, serif;
+  font-weight: 300;
+}
+.payment_field {
+  width: 564px;
+  height: 29px;
+  margin-top: -26px;
+  margin-left: 113px;
+  padding-left: 190px;
+  border: 1px solid black;
+  border-radius: 11px;
+  background-color: #e1ebf0;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+.payment_field.paypalpassword {
+  margin-top: 21px;
+  margin-right: 9px;
+  margin-left: 49px;
+}
+.payment_field.pay_email {
+  margin-top: -1px;
+}
+.payment-small {
+  width: 564px;
+  height: 29px;
+  border: 1px solid black;
+  border-radius: 11px;
+}
+.payment-small.smallsize {
+  width: 48px;
+  margin-top: 5px;
+  margin-right: 31px;
+  margin-left: 8px;
+  background-color: #e1ebf0;
+}
+.payment-small.smallsize.recharge-amount {
+  width: 88px;
+  margin-top: 6px;
+  margin-left: -9px;
+  padding-left: 32px;
+}
+.payment-small.payment_expiry_year {
+  width: 139px;
+  margin-top: 17px;
+  margin-right: 2px;
+  margin-left: 0px;
+  padding: 1px 13px 1px 42px;
+  text-align: center;
+}
+.payment_expiry_month {
+  width: 139px;
+  margin-right: 2px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 36px;
+  text-align: center;
+}
+.float {
+  position: static;
+  margin: 8px 7px 0px 21px;
+  float: left;
+}
+.float.rechargeamountlabel {
+  margin-top: -6px;
+  margin-left: -26px;
+}
+.expiration {
+  margin-right: -23px;
+  margin-left: -39px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-left: 9px;
+}
+.tab_form {
+  margin-top: 36px;
+}
+.payment_submit {
+  height: 37px;
+  margin-left: -4px;
+  padding-top: 8px;
+  padding-bottom: 13px;
+  border-radius: 5px;
+  background-color: #203666;
+  box-shadow: black 0px 0px 8px 0px inset, black 0px 0px 8px 0px inset, #71aba4 0px 0px 8px 0px inset;
+}
+.payment_submit.paypal_submit {
+  margin-left: 13px;
+}
+.success_message1 {
+  margin-top: 48px;
+  background-color: white;
+}
+.debitcard_form_wrapper {
+  margin-top: 27px;
+}
+.debit_success {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: white;
+}
+.paypal_message {
+  margin-top: 50px;
+  background-color: white;
+  text-align: center;
+}
+.backtoaccount {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+}
+.securitycode {
+  margin-left: -24px;
+}
+.debit_security {
+  margin-left: -24px;
+}
