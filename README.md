@@ -7,7 +7,7 @@ We not only save your money but also time!
 
 Features:
 
-Booking a slot
-Cancelling a slot
-Recharging the account online using various payment options
+Booking a slot.
+Cancelling a slot.
+Recharging the account online using various payment options.
 
